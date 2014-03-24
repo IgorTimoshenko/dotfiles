@@ -1,6 +1,6 @@
 [user]    
     name = 'Igor Timoshenko'
-	email = igor.timoshenko@i.ua
+    email = igor.timoshenko@i.ua
 
 [core]
     editor = vim
