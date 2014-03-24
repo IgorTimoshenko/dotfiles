@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dotfiles=~/dotfiles
+dotfiles=$HOME/dotfiles
 
 link() {
     from=$1
