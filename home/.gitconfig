@@ -1,0 +1,19 @@
+[user]    
+    name = 'Igor Timoshenko'
+	email = igor.timoshenko@i.ua
+
+[core]
+    editor = vim
+
+[merge]
+    tool = vimdiff
+
+[color]
+    ui = auto
+
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
