@@ -7,7 +7,7 @@ My Ubuntu dotfiles.
 ## Installation ##
 
 ```sh
-wget https://raw.github.com/IgorTimoshenko/dotfiles/master/install.sh | sh
+wget --no-check-certificate https://raw.github.com/IgorTimoshenko/dotfiles/master/install.sh -O - | sh
 ```
 
 ## Credits ##
