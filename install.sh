@@ -1,6 +1,12 @@
 #!/bin/bash
 
-dotfiles=~/dotfiles
+which git
+if [ $? -ne 0 ]; then
+    echo "Please install Git first"
+    exit 1
+fi
+
+dotfiles=$HOME/dotfiles
 
 git clone --recursive https://github.com/IgorTimoshenko/dotfiles.git $dotfiles
 cd $dotfiles
