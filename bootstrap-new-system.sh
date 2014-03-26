@@ -6,7 +6,11 @@ sudo apt-get update
 sudo apt-get install git-core
 sudo apt-get install git-extras
 sudo apt-get install git-flow
+
+sudo add-apt-repository ppa:aguignard/ppa
+sudo apt-get update
 sudo apt-get install tig
+
 sudo apt-get install vim
 
 # zsh
