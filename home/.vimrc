@@ -38,3 +38,6 @@ set title
 set undolevels=1000
 set visualbell
 set wildignore=*.swp
+
+let g:ctrlp_map='<c-p>'
+let g:ctrlp_cmd='CtrlP'
