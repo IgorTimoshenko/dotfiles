@@ -10,9 +10,15 @@
 [submodule "home/.vim/bundle/nerdtree"]
 	path = home/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "home/.vim/bundle/phpcomplete.vim"]
+	path = home/.vim/bundle/phpcomplete.vim
+	url = https://github.com/shawncplus/phpcomplete.vim.git
 [submodule "home/.vim/bundle/rainbow_parentheses.vim"]
 	path = home/.vim/bundle/rainbow_parentheses.vim
 	url = https://github.com/kien/rainbow_parentheses.vim.git
+[submodule "home/.vim/bundle/supertab"]
+	path = home/.vim/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
 [submodule "home/.vim/bundle/vim-gitgutter"]
 	path = home/.vim/bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git

@@ -10,7 +10,7 @@ set autoindent
 set backspace=indent,eol,start
 
 set colorcolumn=80
-highlight ColorColumn ctermbg=7
+highlight ColorColumn ctermbg=darkgray
 
 set copyindent
 set encoding=utf-8
@@ -42,7 +42,12 @@ set wildignore=*.swp
 let g:ctrlp_map='<c-p>'
 let g:ctrlp_cmd='CtrlP'
 
+highlight Pmenu ctermbg=darkblue
+highlight PmenuSel ctermbg=lightblue
+
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+let g:SuperTabDefaultCompletionType='context'
