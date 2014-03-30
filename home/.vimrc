@@ -10,7 +10,7 @@ set autoindent
 set backspace=indent,eol,start
 
 set colorcolumn=80
-highlight ColorColumn ctermbg=darkgray
+highlight ColorColumn ctermbg=green
 
 set copyindent
 set encoding=utf-8
@@ -49,5 +49,3 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
-
-let g:SuperTabDefaultCompletionType='context'
