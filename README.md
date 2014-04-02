@@ -7,7 +7,9 @@ My Ubuntu dotfiles.
 ## Installation ##
 
 ```sh
-wget --no-check-certificate https://raw.github.com/IgorTimoshenko/dotfiles/master/install.sh -O - | sh
+git clone --recursive https://github.com/IgorTimoshenko/dotfiles.git ~/dotfiles
+cd ~/dotfiles
+./install.sh
 ```
 
 ## Credits ##
